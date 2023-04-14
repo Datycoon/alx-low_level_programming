@@ -121,6 +121,6 @@ int main(int argc, char *argv[])
 			addl = add / 10, nout[k] = (add % 10) + '0';
 		}
 	}
-	putchar("%s\n", nout);
+	printf("%s\n", nout);
 	return (0);
 }
